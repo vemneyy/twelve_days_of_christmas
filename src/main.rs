@@ -14,4 +14,8 @@ fn main() {
             println!("{}", gifts[j]);
         }
     }
+
+    println!("\nНажмите Enter, чтобы выйти...");
+    let mut exit = String::new();
+    std::io::stdin().read_line(&mut exit).expect("Error");
 }
